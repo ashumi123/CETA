@@ -1,0 +1,902 @@
+2022-03-06 07:56:09 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7f8099fa4570; archive(resolved)='<IDEArchive: 0x7f80a804fee0>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodDevelopmentSigned: 0x7f80ba4169a0>', team(resolved)='<IDEProvisioningDisambiguatableBasicTeam: 0x7f8099f75a80; teamID='352Y6WCA3Q', teamName='fairfaqs pty ltd', teamType='Company', username='fairfaqs@gmail.com', isFreeProvisioningTeam='0'>'>
+	Chain (14, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7f8099fa4570; archive = '<IDEArchive: 0x7f80a804fee0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f80ba4169a0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f8099f75a80; teamID='352Y6WCA3Q', teamName='fairfaqs pty ltd', teamType='Company', username='fairfaqs@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7f809800fde0; archive = '<IDEArchive: 0x7f80a804fee0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f80ba4169a0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f8099f75a80; teamID='352Y6WCA3Q', teamName='fairfaqs pty ltd', teamType='Company', username='fairfaqs@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f809a17f7b0; archive = '<IDEArchive: 0x7f80a804fee0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f80ba4169a0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f8099f75a80; teamID='352Y6WCA3Q', teamName='fairfaqs pty ltd', teamType='Company', username='fairfaqs@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f809a1920e0; archive = '<IDEArchive: 0x7f80a804fee0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f80ba4169a0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f8099f75a80; teamID='352Y6WCA3Q', teamName='fairfaqs pty ltd', teamType='Company', username='fairfaqs@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f80b588c6c0; archive = '<IDEArchive: 0x7f80a804fee0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f80ba4169a0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f8099f75a80; teamID='352Y6WCA3Q', teamName='fairfaqs pty ltd', teamType='Company', username='fairfaqs@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f80b58cda20; archive = '<IDEArchive: 0x7f80a804fee0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f80ba4169a0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f8099f75a80; teamID='352Y6WCA3Q', teamName='fairfaqs pty ltd', teamType='Company', username='fairfaqs@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f8098006b20; archive = '<IDEArchive: 0x7f80a804fee0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f80ba4169a0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f8099f75a80; teamID='352Y6WCA3Q', teamName='fairfaqs pty ltd', teamType='Company', username='fairfaqs@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f809a3c9d90; archive = '<IDEArchive: 0x7f80a804fee0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f80ba4169a0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f8099f75a80; teamID='352Y6WCA3Q', teamName='fairfaqs pty ltd', teamType='Company', username='fairfaqs@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f80b581e150; archive = '<IDEArchive: 0x7f80a804fee0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f80ba4169a0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f8099f75a80; teamID='352Y6WCA3Q', teamName='fairfaqs pty ltd', teamType='Company', username='fairfaqs@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f80b588c310; archive = '<IDEArchive: 0x7f80a804fee0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f80ba4169a0>', team='(null)'>
+	<IDEDistributionContext: 0x7f80b58e7b90; archive = '<IDEArchive: 0x7f80a804fee0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f80ba4169a0>', team='(null)'>
+	<IDEDistributionContext: 0x7f80b58f0860; archive = '<IDEArchive: 0x7f80a804fee0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f80ba4169a0>', team='(null)'>
+	<IDEDistributionContext: 0x7f80b5840a70; archive = '<IDEArchive: 0x7f80a804fee0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f80ba4169a0>', team='(null)'>
+	<IDEDistributionContext: 0x7f80b58d43a0; archive = '<IDEArchive: 0x7f80a804fee0>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7f8099fa4570>
+2022-03-06 07:56:09 +0000  Processing step: IDEDistributionCreateDestRootStep
+2022-03-06 07:56:09 +0000  Processing step: IDEDistributionCopyItemStep
+2022-03-06 07:56:09 +0000  Running /usr/bin/ditto '-V' '/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app'
+2022-03-06 07:56:09 +0000  >>> Copying /Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app 
+2022-03-06 07:56:09 +0000  copying file ./_CodeSignature/CodeResources ... 
+2022-03-06 07:56:09 +0000  23092 bytes for ./_CodeSignature/CodeResources
+2022-03-06 07:56:09 +0000  copying file ./AppIcon20x20@2x.png ... 
+2022-03-06 07:56:09 +0000  1714 bytes for ./AppIcon20x20@2x.png
+2022-03-06 07:56:09 +0000  copying file ./AppIcon20x20@3x.png ... 
+2022-03-06 07:56:09 +0000  2780 bytes for ./AppIcon20x20@3x.png
+2022-03-06 07:56:09 +0000  copying file ./AppIcon60x60@2x.png ... 
+2022-03-06 07:56:09 +0000  7034 bytes for ./AppIcon60x60@2x.png
+2022-03-06 07:56:09 +0000  copying file ./AppIcon29x29@2x.png ... 
+2022-03-06 07:56:09 +0000  2658 bytes for ./AppIcon29x29@2x.png
+2022-03-06 07:56:09 +0000  copying file ./AppIcon40x40@3x.png ... 
+2022-03-06 07:56:09 +0000  7034 bytes for ./AppIcon40x40@3x.png
+2022-03-06 07:56:09 +0000  copying file ./AppIcon40x40@2x.png ... 
+2022-03-06 07:56:09 +0000  3904 bytes for ./AppIcon40x40@2x.png
+2022-03-06 07:56:09 +0000  copying file ./AppIcon29x29@3x.png ... 
+2022-03-06 07:56:09 +0000  4363 bytes for ./AppIcon29x29@3x.png
+2022-03-06 07:56:09 +0000  copying file ./AccessibilityResources.bundle/en.lproj/Localizable.strings ... 
+2022-03-06 07:56:09 +0000  530 bytes for ./AccessibilityResources.bundle/en.lproj/Localizable.strings
+2022-03-06 07:56:09 +0000  copying file ./AccessibilityResources.bundle/Info.plist ... 
+2022-03-06 07:56:09 +0000  745 bytes for ./AccessibilityResources.bundle/Info.plist
+2022-03-06 07:56:09 +0000  copying file ./GoogleService-Info.plist ... 
+2022-03-06 07:56:09 +0000  666 bytes for ./GoogleService-Info.plist
+2022-03-06 07:56:09 +0000  copying file ./AppIcon60x60@3x.png ... 
+2022-03-06 07:56:09 +0000  13740 bytes for ./AppIcon60x60@3x.png
+2022-03-06 07:56:09 +0000  copying file ./Assets.car ... 
+2022-03-06 07:56:09 +0000  2955711 bytes for ./Assets.car
+2022-03-06 07:56:09 +0000  copying file ./main.jsbundle ... 
+2022-03-06 07:56:09 +0000  2066167 bytes for ./main.jsbundle
+2022-03-06 07:56:09 +0000  copying file ./coinvert ... 
+2022-03-06 07:56:10 +0000  68563392 bytes for ./coinvert
+2022-03-06 07:56:10 +0000  copying file ./LaunchScreen.storyboardc/EXPO-VIEWCONTROLLER-1-view-EXPO-IMAGEVIEW-1.nib ... 
+1259 bytes for ./LaunchScreen.storyboardc/EXPO-VIEWCONTROLLER-1-view-EXPO-IMAGEVIEW-1.nib
+copying file ./LaunchScreen.storyboardc/SplashScreenViewController.nib ... 
+2022-03-06 07:56:10 +0000  974 bytes for ./LaunchScreen.storyboardc/SplashScreenViewController.nib
+2022-03-06 07:56:10 +0000  copying file ./LaunchScreen.storyboardc/Info.plist ... 
+2022-03-06 07:56:10 +0000  225 bytes for ./LaunchScreen.storyboardc/Info.plist
+2022-03-06 07:56:10 +0000  copying file ./IQKeyboardManagerSwift.bundle/Assets.car ... 
+2022-03-06 07:56:10 +0000  62671 bytes for ./IQKeyboardManagerSwift.bundle/Assets.car
+2022-03-06 07:56:10 +0000  copying file ./IQKeyboardManagerSwift.bundle/Info.plist ... 
+2022-03-06 07:56:10 +0000  743 bytes for ./IQKeyboardManagerSwift.bundle/Info.plist
+2022-03-06 07:56:10 +0000  copying file ./Frameworks/libswiftCoreImage.dylib ... 
+2022-03-06 07:56:10 +0000  466560 bytes for ./Frameworks/libswiftCoreImage.dylib
+2022-03-06 07:56:10 +0000  copying file ./Frameworks/libswiftObjectiveC.dylib ... 
+2022-03-06 07:56:10 +0000  679680 bytes for ./Frameworks/libswiftObjectiveC.dylib
+2022-03-06 07:56:10 +0000  copying file ./Frameworks/libswiftCore.dylib ... 
+2022-03-06 07:56:10 +0000  95497584 bytes for ./Frameworks/libswiftCore.dylib
+2022-03-06 07:56:10 +0000  copying file ./Frameworks/libswiftCoreGraphics.dylib ... 
+2022-03-06 07:56:10 +0000  2041040 bytes for ./Frameworks/libswiftCoreGraphics.dylib
+2022-03-06 07:56:10 +0000  copying file ./Frameworks/OpenSSL.framework/_CodeSignature/CodeResources ... 
+2022-03-06 07:56:10 +0000  1798 bytes for ./Frameworks/OpenSSL.framework/_CodeSignature/CodeResources
+2022-03-06 07:56:10 +0000  copying file ./Frameworks/OpenSSL.framework/OpenSSL ... 
+2022-03-06 07:56:10 +0000  20930400 bytes for ./Frameworks/OpenSSL.framework/OpenSSL
+2022-03-06 07:56:10 +0000  copying file ./Frameworks/OpenSSL.framework/Info.plist ... 
+716 bytes for ./Frameworks/OpenSSL.framework/Info.plist
+copying file ./Frameworks/libswiftUIKit.dylib ... 
+2022-03-06 07:56:10 +0000  1608800 bytes for ./Frameworks/libswiftUIKit.dylib
+2022-03-06 07:56:10 +0000  copying file ./Frameworks/libswiftMetal.dylib ... 
+2022-03-06 07:56:10 +0000  724416 bytes for ./Frameworks/libswiftMetal.dylib
+2022-03-06 07:56:10 +0000  copying file ./Frameworks/libswiftDispatch.dylib ... 
+2022-03-06 07:56:10 +0000  4056896 bytes for ./Frameworks/libswiftDispatch.dylib
+2022-03-06 07:56:10 +0000  copying file ./Frameworks/libswiftos.dylib ... 
+2022-03-06 07:56:10 +0000  857184 bytes for ./Frameworks/libswiftos.dylib
+2022-03-06 07:56:10 +0000  copying file ./Frameworks/libswiftCoreFoundation.dylib ... 
+2022-03-06 07:56:10 +0000  450384 bytes for ./Frameworks/libswiftCoreFoundation.dylib
+2022-03-06 07:56:10 +0000  copying file ./Frameworks/libswiftDarwin.dylib ... 
+2022-03-06 07:56:10 +0000  1091440 bytes for ./Frameworks/libswiftDarwin.dylib
+2022-03-06 07:56:10 +0000  copying file ./Frameworks/libswiftQuartzCore.dylib ... 
+2022-03-06 07:56:10 +0000  486336 bytes for ./Frameworks/libswiftQuartzCore.dylib
+2022-03-06 07:56:10 +0000  copying file ./Frameworks/libswiftFoundation.dylib ... 
+2022-03-06 07:56:10 +0000  43094320 bytes for ./Frameworks/libswiftFoundation.dylib
+2022-03-06 07:56:10 +0000  copying file ./Frameworks/libswiftCoreLocation.dylib ... 
+2022-03-06 07:56:10 +0000  730224 bytes for ./Frameworks/libswiftCoreLocation.dylib
+2022-03-06 07:56:10 +0000  copying file ./embedded.mobileprovision ... 
+17379 bytes for ./embedded.mobileprovision
+copying file ./assets/app.json ... 
+2022-03-06 07:56:10 +0000  53 bytes for ./assets/app.json
+2022-03-06 07:56:10 +0000  copying file ./assets/node_modules/react-native/package.json ... 
+2022-03-06 07:56:10 +0000  6756 bytes for ./assets/node_modules/react-native/package.json
+2022-03-06 07:56:10 +0000  copying file ./assets/node_modules/@react-navigation/drawer/src/views/assets/toggle-drawer-icon@3x.png ... 
+2022-03-06 07:56:10 +0000  212 bytes for ./assets/node_modules/@react-navigation/drawer/src/views/assets/toggle-drawer-icon@3x.png
+2022-03-06 07:56:10 +0000  copying file ./assets/node_modules/@react-navigation/drawer/src/views/assets/toggle-drawer-icon@2x.png ... 
+2022-03-06 07:56:10 +0000  163 bytes for ./assets/node_modules/@react-navigation/drawer/src/views/assets/toggle-drawer-icon@2x.png
+2022-03-06 07:56:10 +0000  copying file ./assets/node_modules/@react-navigation/drawer/src/views/assets/toggle-drawer-icon.png ... 
+2022-03-06 07:56:10 +0000  108 bytes for ./assets/node_modules/@react-navigation/drawer/src/views/assets/toggle-drawer-icon.png
+2022-03-06 07:56:10 +0000  copying file ./assets/node_modules/@react-navigation/stack/src/views/assets/back-icon@3x.png ... 
+2022-03-06 07:56:10 +0000  761 bytes for ./assets/node_modules/@react-navigation/stack/src/views/assets/back-icon@3x.png
+2022-03-06 07:56:10 +0000  copying file ./assets/node_modules/@react-navigation/stack/src/views/assets/back-icon@2x.png ... 
+2022-03-06 07:56:10 +0000  405 bytes for ./assets/node_modules/@react-navigation/stack/src/views/assets/back-icon@2x.png
+2022-03-06 07:56:10 +0000  copying file ./assets/node_modules/@react-navigation/stack/src/views/assets/back-icon.png ... 
+2022-03-06 07:56:10 +0000  290 bytes for ./assets/node_modules/@react-navigation/stack/src/views/assets/back-icon.png
+2022-03-06 07:56:10 +0000  copying file ./assets/node_modules/@react-navigation/stack/src/views/assets/back-icon-mask.png ... 
+2022-03-06 07:56:10 +0000  913 bytes for ./assets/node_modules/@react-navigation/stack/src/views/assets/back-icon-mask.png
+2022-03-06 07:56:10 +0000  copying file ./assets/node_modules/react-native-calendars/src/calendar/img/previous@2x.png ... 
+2022-03-06 07:56:10 +0000  458 bytes for ./assets/node_modules/react-native-calendars/src/calendar/img/previous@2x.png
+2022-03-06 07:56:10 +0000  copying file ./assets/node_modules/react-native-calendars/src/calendar/img/next@2x.png ... 
+2022-03-06 07:56:10 +0000  462 bytes for ./assets/node_modules/react-native-calendars/src/calendar/img/next@2x.png
+2022-03-06 07:56:10 +0000  copying file ./assets/node_modules/react-native-calendars/src/img/down@3x.png ... 
+2022-03-06 07:56:10 +0000  508 bytes for ./assets/node_modules/react-native-calendars/src/img/down@3x.png
+2022-03-06 07:56:10 +0000  copying file ./assets/node_modules/react-native-calendars/src/img/down@2x.png ... 
+2022-03-06 07:56:10 +0000  354 bytes for ./assets/node_modules/react-native-calendars/src/img/down@2x.png
+2022-03-06 07:56:10 +0000  copying file ./assets/node_modules/react-native-calendars/src/img/up.png ... 
+2022-03-06 07:56:10 +0000  215 bytes for ./assets/node_modules/react-native-calendars/src/img/up.png
+2022-03-06 07:56:10 +0000  copying file ./assets/node_modules/react-native-calendars/src/img/down.png ... 
+2022-03-06 07:56:10 +0000  208 bytes for ./assets/node_modules/react-native-calendars/src/img/down.png
+2022-03-06 07:56:10 +0000  copying file ./assets/node_modules/react-native-calendars/src/img/up@2x.png ... 
+2022-03-06 07:56:10 +0000  347 bytes for ./assets/node_modules/react-native-calendars/src/img/up@2x.png
+2022-03-06 07:56:10 +0000  copying file ./assets/node_modules/react-native-calendars/src/img/up@3x.png ... 
+2022-03-06 07:56:10 +0000  504 bytes for ./assets/node_modules/react-native-calendars/src/img/up@3x.png
+2022-03-06 07:56:10 +0000  copying file ./assets/Src/Assets/profilePic.png ... 
+2022-03-06 07:56:10 +0000  10654 bytes for ./assets/Src/Assets/profilePic.png
+2022-03-06 07:56:10 +0000  copying file ./assets/Src/Assets/logo.png ... 
+2022-03-06 07:56:10 +0000  47783 bytes for ./assets/Src/Assets/logo.png
+2022-03-06 07:56:10 +0000  copying file ./assets/Src/Assets/Group162.png ... 
+2022-03-06 07:56:10 +0000  135023 bytes for ./assets/Src/Assets/Group162.png
+2022-03-06 07:56:10 +0000  copying file ./assets/Src/Assets/Group163.png ... 
+2022-03-06 07:56:10 +0000  2835 bytes for ./assets/Src/Assets/Group163.png
+2022-03-06 07:56:10 +0000  copying file ./assets/Src/Assets/keylock.png ... 
+2022-03-06 07:56:10 +0000  66421 bytes for ./assets/Src/Assets/keylock.png
+2022-03-06 07:56:10 +0000  copying file ./assets/Src/Assets/Group164.png ... 
+2022-03-06 07:56:10 +0000  911 bytes for ./assets/Src/Assets/Group164.png
+2022-03-06 07:56:10 +0000  copying file ./assets/Src/Assets/notification.png ... 
+2022-03-06 07:56:10 +0000  994 bytes for ./assets/Src/Assets/notification.png
+2022-03-06 07:56:10 +0000  copying file ./assets/Src/Assets/Group165.png ... 
+2022-03-06 07:56:10 +0000  8154 bytes for ./assets/Src/Assets/Group165.png
+2022-03-06 07:56:10 +0000  copying file ./assets/Src/Assets/back.png ... 
+2022-03-06 07:56:10 +0000  522 bytes for ./assets/Src/Assets/back.png
+2022-03-06 07:56:10 +0000  copying file ./assets/Src/Assets/calander.png ... 
+2022-03-06 07:56:10 +0000  1341 bytes for ./assets/Src/Assets/calander.png
+2022-03-06 07:56:10 +0000  copying file ./Info.plist ... 
+2022-03-06 07:56:10 +0000  3054 bytes for ./Info.plist
+2022-03-06 07:56:10 +0000  copying file ./PkgInfo ... 
+2022-03-06 07:56:10 +0000  8 bytes for ./PkgInfo
+2022-03-06 07:56:10 +0000  /usr/bin/ditto exited with 0
+2022-03-06 07:56:10 +0000  Processing step: IDEDistributionEmbedProfileStep
+2022-03-06 07:56:10 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f80b28c94b0; bundleID='com.github.krzyzanowskim.OpenSSL', path='<DVTFilePath:0x7f809a222fc0:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/OpenSSL.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f8099f8d6d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f809a03f910; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80c3631060>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.github.krzyzanowskim.OpenSSL', executablePath='<DVTFilePath:0x7f809a3d6470:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/OpenSSL.framework/OpenSSL'>', hardenedRuntime='0'>'>
+2022-03-06 07:56:10 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f8099f8e870; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x7f809a21df20:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f809a2fa190; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f80ce2ee090; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80ae764890>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x7f809a21df20:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'>
+2022-03-06 07:56:10 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f809a2f0060; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x7f80b471be50:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f809a30f1b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f809a03f910; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80d285fd50>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x7f80b471be50:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'>
+2022-03-06 07:56:10 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f809a2e6c60; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x7f80b26d3460:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f809a35d760; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f80980081f0; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80a81c5e00>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x7f80b26d3460:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'>
+2022-03-06 07:56:10 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f809a2f68f0; bundleID='com.apple.dt.runtime.swiftCoreImage', path='<DVTFilePath:0x7f809a30aa80:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCoreImage.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f8099f93580; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f809a051230; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80b06afc90>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftCoreImage', executablePath='<DVTFilePath:0x7f809a30aa80:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCoreImage.dylib'>', hardenedRuntime='0'>'>
+2022-03-06 07:56:10 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f809a2f98b0; bundleID='com.apple.dt.runtime.swiftCoreLocation', path='<DVTFilePath:0x7f80b4747320:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCoreLocation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f809a2f3a80; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f809a051720; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80b9984760>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftCoreLocation', executablePath='<DVTFilePath:0x7f80b4747320:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCoreLocation.dylib'>', hardenedRuntime='0'>'>
+2022-03-06 07:56:10 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f809a2ea380; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x7f80b36a1450:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f8099f769b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f80980081f0; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80b06afc90>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x7f80b36a1450:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'>
+2022-03-06 07:56:10 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f8099f8b540; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x7f8099f40c00:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f809a1f6490; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f80980081f0; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80b34dd5b0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x7f8099f40c00:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'>
+2022-03-06 07:56:10 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f809a2f3350; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x7f80ad02b9a0:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f809a2efeb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f809a051720; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80b1435660>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x7f80ad02b9a0:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'>
+2022-03-06 07:56:10 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f809a2ed310; bundleID='com.apple.dt.runtime.swiftMetal', path='<DVTFilePath:0x7f80b58c7d00:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftMetal.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f809a2ea090; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f80980081f0; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80a81c5e00>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftMetal', executablePath='<DVTFilePath:0x7f80b58c7d00:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftMetal.dylib'>', hardenedRuntime='0'>'>
+2022-03-06 07:56:10 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f809a2f3df0; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x7f809a30df20:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f809a2f3cb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f809a03fcd0; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80c360bac0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x7f809a30df20:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'>
+2022-03-06 07:56:10 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f8099f8fcb0; bundleID='com.apple.dt.runtime.swiftQuartzCore', path='<DVTFilePath:0x7f80b5809640:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftQuartzCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f809a2f1170; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f80980081f0; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80ad44b330>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftQuartzCore', executablePath='<DVTFilePath:0x7f80b5809640:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftQuartzCore.dylib'>', hardenedRuntime='0'>'>
+2022-03-06 07:56:10 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f809a00c690; bundleID='com.apple.dt.runtime.swiftUIKit', path='<DVTFilePath:0x7f80b26d95f0:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftUIKit.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f80b4731470; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f809a051c70; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80c46aec80>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftUIKit', executablePath='<DVTFilePath:0x7f80b26d95f0:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftUIKit.dylib'>', hardenedRuntime='0'>'>
+2022-03-06 07:56:10 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f809a1f83c0; bundleID='com.apple.dt.runtime.swiftos', path='<DVTFilePath:0x7f8099f682b0:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftos.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f80a8061e30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f80980081f0; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80ad44b330>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftos', executablePath='<DVTFilePath:0x7f8099f682b0:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftos.dylib'>', hardenedRuntime='0'>'>
+2022-03-06 07:56:10 +0000  Processing step: IDEDistributionInfoPlistStep
+2022-03-06 07:56:10 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2022-03-06 07:56:10 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2022-03-06 07:56:10 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2022-03-06 07:56:10 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2022-03-06 07:56:10 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2022-03-06 07:56:10 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2022-03-06 07:56:10 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2022-03-06 07:56:10 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2022-03-06 07:56:10 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2022-03-06 07:56:10 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2022-03-06 07:56:10 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2022-03-06 07:56:10 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2022-03-06 07:56:10 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2022-03-06 07:56:10 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2022-03-06 07:56:10 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2022-03-06 07:56:10 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2022-03-06 07:56:10 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2022-03-06 07:56:10 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2022-03-06 07:56:10 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2022-03-06 07:56:10 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/OpenSSL.framework/OpenSSL' '-r' '-o' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/OpenSSL.framework/OpenSSL'
+2022-03-06 07:56:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2022-03-06 07:56:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftCore.dylib' '-r' '-o' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftCore.dylib'
+2022-03-06 07:56:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2022-03-06 07:56:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftCoreFoundation.dylib' '-r' '-o' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftCoreFoundation.dylib'
+2022-03-06 07:56:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2022-03-06 07:56:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftCoreGraphics.dylib' '-r' '-o' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftCoreGraphics.dylib'
+2022-03-06 07:56:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2022-03-06 07:56:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftCoreImage.dylib' '-r' '-o' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftCoreImage.dylib'
+2022-03-06 07:56:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2022-03-06 07:56:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftCoreLocation.dylib' '-r' '-o' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftCoreLocation.dylib'
+2022-03-06 07:56:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2022-03-06 07:56:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftDarwin.dylib' '-r' '-o' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftDarwin.dylib'
+2022-03-06 07:56:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2022-03-06 07:56:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftDispatch.dylib' '-r' '-o' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftDispatch.dylib'
+2022-03-06 07:56:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2022-03-06 07:56:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftFoundation.dylib' '-r' '-o' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftFoundation.dylib'
+2022-03-06 07:56:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2022-03-06 07:56:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftMetal.dylib' '-r' '-o' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftMetal.dylib'
+2022-03-06 07:56:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2022-03-06 07:56:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftObjectiveC.dylib' '-r' '-o' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftObjectiveC.dylib'
+2022-03-06 07:56:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2022-03-06 07:56:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftQuartzCore.dylib' '-r' '-o' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftQuartzCore.dylib'
+2022-03-06 07:56:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2022-03-06 07:56:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftUIKit.dylib' '-r' '-o' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftUIKit.dylib'
+2022-03-06 07:56:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2022-03-06 07:56:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftos.dylib' '-r' '-o' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftos.dylib'
+2022-03-06 07:56:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2022-03-06 07:56:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/coinvert' '-r' '-o' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/coinvert'
+2022-03-06 07:56:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2022-03-06 07:56:11 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2022-03-06 07:56:11 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2022-03-06 07:56:11 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2022-03-06 07:56:11 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2022-03-06 07:56:11 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2022-03-06 07:56:11 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2022-03-06 07:56:11 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2022-03-06 07:56:11 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2022-03-06 07:56:11 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2022-03-06 07:56:11 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2022-03-06 07:56:11 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2022-03-06 07:56:11 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2022-03-06 07:56:11 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2022-03-06 07:56:11 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2022-03-06 07:56:11 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2022-03-06 07:56:11 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2022-03-06 07:56:11 +0000  Processing step: IDEDistributionSymbolsStep
+2022-03-06 07:56:11 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2022-03-06 07:56:11 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2022-03-06 07:56:11 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2022-03-06 07:56:11 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2022-03-06 07:56:11 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2022-03-06 07:56:11 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2022-03-06 07:56:11 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2022-03-06 07:56:11 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2022-03-06 07:56:11 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2022-03-06 07:56:11 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2022-03-06 07:56:11 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2022-03-06 07:56:11 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2022-03-06 07:56:11 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2022-03-06 07:56:11 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2022-03-06 07:56:11 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2022-03-06 07:56:11 +0000  Processing step: IDEDistributionAppThinningStep
+2022-03-06 07:56:11 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2022-03-06 07:56:11 +0000  Processing step: IDEDistributionArchThinningStep
+2022-03-06 07:56:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/OpenSSL.framework/OpenSSL' '-verify_arch' 'arm64e'
+2022-03-06 07:56:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2022-03-06 07:56:11 +0000  Skipping architecture thinning for item "OpenSSL" because arch "arm64e" wasn't found
+2022-03-06 07:56:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftCore.dylib' '-verify_arch' 'arm64e'
+2022-03-06 07:56:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-03-06 07:56:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftCore.dylib' '-remove' 'arm64e' '-output' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftCore.dylib'
+2022-03-06 07:56:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-03-06 07:56:11 +0000  Successfully thinned item "libswiftCore.dylib", arch "arm64e"
+2022-03-06 07:56:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftCoreFoundation.dylib' '-verify_arch' 'arm64e'
+2022-03-06 07:56:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-03-06 07:56:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftCoreFoundation.dylib' '-remove' 'arm64e' '-output' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftCoreFoundation.dylib'
+2022-03-06 07:56:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-03-06 07:56:11 +0000  Successfully thinned item "libswiftCoreFoundation.dylib", arch "arm64e"
+2022-03-06 07:56:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftCoreGraphics.dylib' '-verify_arch' 'arm64e'
+2022-03-06 07:56:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-03-06 07:56:12 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftCoreGraphics.dylib' '-remove' 'arm64e' '-output' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftCoreGraphics.dylib'
+2022-03-06 07:56:12 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-03-06 07:56:12 +0000  Successfully thinned item "libswiftCoreGraphics.dylib", arch "arm64e"
+2022-03-06 07:56:12 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftCoreImage.dylib' '-verify_arch' 'arm64e'
+2022-03-06 07:56:12 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-03-06 07:56:12 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftCoreImage.dylib' '-remove' 'arm64e' '-output' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftCoreImage.dylib'
+2022-03-06 07:56:12 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-03-06 07:56:12 +0000  Successfully thinned item "libswiftCoreImage.dylib", arch "arm64e"
+2022-03-06 07:56:12 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftCoreLocation.dylib' '-verify_arch' 'arm64e'
+2022-03-06 07:56:12 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-03-06 07:56:12 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftCoreLocation.dylib' '-remove' 'arm64e' '-output' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftCoreLocation.dylib'
+2022-03-06 07:56:12 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-03-06 07:56:12 +0000  Successfully thinned item "libswiftCoreLocation.dylib", arch "arm64e"
+2022-03-06 07:56:12 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftDarwin.dylib' '-verify_arch' 'arm64e'
+2022-03-06 07:56:12 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-03-06 07:56:12 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftDarwin.dylib' '-remove' 'arm64e' '-output' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftDarwin.dylib'
+2022-03-06 07:56:12 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-03-06 07:56:12 +0000  Successfully thinned item "libswiftDarwin.dylib", arch "arm64e"
+2022-03-06 07:56:12 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftDispatch.dylib' '-verify_arch' 'arm64e'
+2022-03-06 07:56:12 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-03-06 07:56:12 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftDispatch.dylib' '-remove' 'arm64e' '-output' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftDispatch.dylib'
+2022-03-06 07:56:12 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-03-06 07:56:12 +0000  Successfully thinned item "libswiftDispatch.dylib", arch "arm64e"
+2022-03-06 07:56:12 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftFoundation.dylib' '-verify_arch' 'arm64e'
+2022-03-06 07:56:12 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-03-06 07:56:12 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftFoundation.dylib' '-remove' 'arm64e' '-output' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftFoundation.dylib'
+2022-03-06 07:56:12 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-03-06 07:56:12 +0000  Successfully thinned item "libswiftFoundation.dylib", arch "arm64e"
+2022-03-06 07:56:12 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftMetal.dylib' '-verify_arch' 'arm64e'
+2022-03-06 07:56:12 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-03-06 07:56:12 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftMetal.dylib' '-remove' 'arm64e' '-output' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftMetal.dylib'
+2022-03-06 07:56:12 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-03-06 07:56:12 +0000  Successfully thinned item "libswiftMetal.dylib", arch "arm64e"
+2022-03-06 07:56:12 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftObjectiveC.dylib' '-verify_arch' 'arm64e'
+2022-03-06 07:56:12 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-03-06 07:56:12 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftObjectiveC.dylib' '-remove' 'arm64e' '-output' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftObjectiveC.dylib'
+2022-03-06 07:56:12 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-03-06 07:56:12 +0000  Successfully thinned item "libswiftObjectiveC.dylib", arch "arm64e"
+2022-03-06 07:56:12 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftQuartzCore.dylib' '-verify_arch' 'arm64e'
+2022-03-06 07:56:12 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-03-06 07:56:12 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftQuartzCore.dylib' '-remove' 'arm64e' '-output' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftQuartzCore.dylib'
+2022-03-06 07:56:12 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-03-06 07:56:12 +0000  Successfully thinned item "libswiftQuartzCore.dylib", arch "arm64e"
+2022-03-06 07:56:12 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftUIKit.dylib' '-verify_arch' 'arm64e'
+2022-03-06 07:56:12 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-03-06 07:56:12 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftUIKit.dylib' '-remove' 'arm64e' '-output' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftUIKit.dylib'
+2022-03-06 07:56:12 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-03-06 07:56:12 +0000  Successfully thinned item "libswiftUIKit.dylib", arch "arm64e"
+2022-03-06 07:56:12 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftos.dylib' '-verify_arch' 'arm64e'
+2022-03-06 07:56:12 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-03-06 07:56:12 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftos.dylib' '-remove' 'arm64e' '-output' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftos.dylib'
+2022-03-06 07:56:12 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2022-03-06 07:56:12 +0000  Successfully thinned item "libswiftos.dylib", arch "arm64e"
+2022-03-06 07:56:12 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/coinvert' '-verify_arch' 'arm64e'
+2022-03-06 07:56:12 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2022-03-06 07:56:12 +0000  Skipping architecture thinning for item "coinvert" because arch "arm64e" wasn't found
+2022-03-06 07:56:12 +0000  Processing step: IDEDistributionODRStep
+2022-03-06 07:56:12 +0000  Processing step: IDEDistributionStripXattrsStep
+2022-03-06 07:56:12 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f80b28c94b0; bundleID='com.github.krzyzanowskim.OpenSSL', path='<DVTFilePath:0x7f809a222fc0:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/OpenSSL.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f8099f8d6d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f809a0136b0; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80c15c2880>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.github.krzyzanowskim.OpenSSL', executablePath='<DVTFilePath:0x7f809a3d6470:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/OpenSSL.framework/OpenSSL'>', hardenedRuntime='0'>'>
+2022-03-06 07:56:12 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f8099f8e870; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x7f809a21df20:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f809a2fa190; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f80b416e310; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80b34bc9c0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x7f809a21df20:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'>
+2022-03-06 07:56:12 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f809a2f0060; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x7f80b471be50:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f809a30f1b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f809a01fe30; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80cbbfaa40>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x7f80b471be50:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'>
+2022-03-06 07:56:12 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f809a2e6c60; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x7f80b26d3460:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f809a35d760; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f80980115b0; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80b34bc9c0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x7f80b26d3460:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'>
+2022-03-06 07:56:12 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f809a2f68f0; bundleID='com.apple.dt.runtime.swiftCoreImage', path='<DVTFilePath:0x7f809a30aa80:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCoreImage.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f8099f93580; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f809a01ff90; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80c1527fe0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftCoreImage', executablePath='<DVTFilePath:0x7f809a30aa80:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCoreImage.dylib'>', hardenedRuntime='0'>'>
+2022-03-06 07:56:12 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f809a2f98b0; bundleID='com.apple.dt.runtime.swiftCoreLocation', path='<DVTFilePath:0x7f80b4747320:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCoreLocation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f809a2f3a80; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f80b416e310; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80b34bc9c0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftCoreLocation', executablePath='<DVTFilePath:0x7f80b4747320:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCoreLocation.dylib'>', hardenedRuntime='0'>'>
+2022-03-06 07:56:12 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f809a2ea380; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x7f80b36a1450:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f8099f769b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f809a022470; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80c1542810>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x7f80b36a1450:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'>
+2022-03-06 07:56:12 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f8099f8b540; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x7f8099f40c00:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f809a1f6490; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f8098013d60; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80b34af2e0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x7f8099f40c00:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'>
+2022-03-06 07:56:12 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f809a2f3350; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x7f80ad02b9a0:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f809a2efeb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f809a01bbb0; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80cbbcb790>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x7f80ad02b9a0:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'>
+2022-03-06 07:56:12 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f809a2ed310; bundleID='com.apple.dt.runtime.swiftMetal', path='<DVTFilePath:0x7f80b58c7d00:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftMetal.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f809a2ea090; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f80b584d050; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80cdbfa070>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftMetal', executablePath='<DVTFilePath:0x7f80b58c7d00:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftMetal.dylib'>', hardenedRuntime='0'>'>
+2022-03-06 07:56:12 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f809a2f3df0; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x7f809a30df20:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f809a2f3cb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f80b582c180; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80b34af2e0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x7f809a30df20:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'>
+2022-03-06 07:56:12 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f8099f8fcb0; bundleID='com.apple.dt.runtime.swiftQuartzCore', path='<DVTFilePath:0x7f80b5809640:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftQuartzCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f809a2f1170; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f809a022690; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80cbb811d0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftQuartzCore', executablePath='<DVTFilePath:0x7f80b5809640:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftQuartzCore.dylib'>', hardenedRuntime='0'>'>
+2022-03-06 07:56:12 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f809a00c690; bundleID='com.apple.dt.runtime.swiftUIKit', path='<DVTFilePath:0x7f80b26d95f0:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftUIKit.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f80b4731470; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f80b584cfe0; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80b34af2e0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftUIKit', executablePath='<DVTFilePath:0x7f80b26d95f0:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftUIKit.dylib'>', hardenedRuntime='0'>'>
+2022-03-06 07:56:12 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f809a1f83c0; bundleID='com.apple.dt.runtime.swiftos', path='<DVTFilePath:0x7f8099f682b0:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftos.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f80a8061e30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f809a01ba20; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80cbbcb790>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftos', executablePath='<DVTFilePath:0x7f8099f682b0:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftos.dylib'>', hardenedRuntime='0'>'>
+2022-03-06 07:56:12 +0000  Running /usr/bin/xattr '-crs' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app'
+2022-03-06 07:56:13 +0000  /usr/bin/xattr exited with 0
+2022-03-06 07:56:13 +0000  Processing step: IDEDistributionCodesignStep
+2022-03-06 07:56:13 +0000  Entitlements for <IDEDistributionItem: 0x7f80b28c94b0; bundleID='com.github.krzyzanowskim.OpenSSL', path='<DVTFilePath:0x7f809a222fc0:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/OpenSSL.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f8099f8d6d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f80b7f5eb50; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80b7f26830>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.github.krzyzanowskim.OpenSSL', executablePath='<DVTFilePath:0x7f809a3d6470:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/OpenSSL.framework/OpenSSL'>', hardenedRuntime='0'>'>: {
+}
+2022-03-06 07:56:13 +0000  Entitlements for <IDEDistributionItem: 0x7f80b28c94b0; bundleID='com.github.krzyzanowskim.OpenSSL', path='<DVTFilePath:0x7f809a222fc0:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/OpenSSL.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f8099f8d6d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f8098018620; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80d2fcc040>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.github.krzyzanowskim.OpenSSL', executablePath='<DVTFilePath:0x7f809a3d6470:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/OpenSSL.framework/OpenSSL'>', hardenedRuntime='0'>'> are: {
+}
+2022-03-06 07:56:13 +0000  Writing entitlements for <IDEDistributionItem: 0x7f80b28c94b0; bundleID='com.github.krzyzanowskim.OpenSSL', path='<DVTFilePath:0x7f809a222fc0:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/OpenSSL.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f8099f8d6d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f8099fbc0e0; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f8099fa6c90>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.github.krzyzanowskim.OpenSSL', executablePath='<DVTFilePath:0x7f809a3d6470:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/OpenSSL.framework/OpenSSL'>', hardenedRuntime='0'>'> to: /var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/entitlements~~~NWsqnp
+2022-03-06 07:56:13 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D' '--entitlements' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/entitlements~~~NWsqnp' '--preserve-metadata=identifier,flags,runtime' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/OpenSSL.framework'
+2022-03-06 07:56:13 +0000  /var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/OpenSSL.framework: signed bundle with Mach-O universal (armv7 arm64) [com.github.krzyzanowskim.OpenSSL]
+2022-03-06 07:56:13 +0000  /usr/bin/codesign exited with 0
+2022-03-06 07:56:13 +0000  Entitlements for <IDEDistributionItem: 0x7f8099f8e870; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x7f809a21df20:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f809a2fa190; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f80b356ccf0; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f8099fa6810>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x7f809a21df20:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'>: {
+}
+2022-03-06 07:56:13 +0000  Entitlements for <IDEDistributionItem: 0x7f8099f8e870; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x7f809a21df20:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f809a2fa190; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f8099fb8800; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80ae777140>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x7f809a21df20:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2022-03-06 07:56:13 +0000  Writing entitlements for <IDEDistributionItem: 0x7f8099f8e870; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x7f809a21df20:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f809a2fa190; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f8098015190; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80b9e68c10>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x7f809a21df20:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'> to: /var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/entitlements~~~o8ArQD
+2022-03-06 07:56:13 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D' '--entitlements' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/entitlements~~~o8ArQD' '--preserve-metadata=identifier,flags,runtime' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftCore.dylib'
+2022-03-06 07:56:13 +0000  /var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCore]
+2022-03-06 07:56:13 +0000  /usr/bin/codesign exited with 0
+2022-03-06 07:56:13 +0000  Entitlements for <IDEDistributionItem: 0x7f809a2f0060; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x7f80b471be50:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f809a30f1b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f8099f81080; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f8099f7dc40>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x7f80b471be50:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'>: {
+}
+2022-03-06 07:56:13 +0000  Entitlements for <IDEDistributionItem: 0x7f809a2f0060; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x7f80b471be50:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f809a30f1b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f80b35bb230; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80b8aecfb0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x7f80b471be50:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2022-03-06 07:56:13 +0000  Writing entitlements for <IDEDistributionItem: 0x7f809a2f0060; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x7f80b471be50:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f809a30f1b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f809801ee20; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80b9e68c10>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x7f80b471be50:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'> to: /var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/entitlements~~~Jb9ige
+2022-03-06 07:56:13 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D' '--entitlements' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/entitlements~~~Jb9ige' '--preserve-metadata=identifier,flags,runtime' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftCoreFoundation.dylib'
+2022-03-06 07:56:13 +0000  /var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftCoreFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreFoundation]
+2022-03-06 07:56:13 +0000  /usr/bin/codesign exited with 0
+2022-03-06 07:56:13 +0000  Entitlements for <IDEDistributionItem: 0x7f809a2e6c60; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x7f80b26d3460:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f809a35d760; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f80b35c7b30; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80b7f4e080>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x7f80b26d3460:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'>: {
+}
+2022-03-06 07:56:13 +0000  Entitlements for <IDEDistributionItem: 0x7f809a2e6c60; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x7f80b26d3460:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f809a35d760; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f80b7f31d80; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80b7f32b10>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x7f80b26d3460:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2022-03-06 07:56:14 +0000  Writing entitlements for <IDEDistributionItem: 0x7f809a2e6c60; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x7f80b26d3460:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f809a35d760; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f8099f9cdf0; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f8099f9cea0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x7f80b26d3460:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'> to: /var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/entitlements~~~pj7oCz
+2022-03-06 07:56:14 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D' '--entitlements' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/entitlements~~~pj7oCz' '--preserve-metadata=identifier,flags,runtime' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftCoreGraphics.dylib'
+2022-03-06 07:56:14 +0000  /var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftCoreGraphics.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreGraphics]
+2022-03-06 07:56:14 +0000  /usr/bin/codesign exited with 0
+2022-03-06 07:56:14 +0000  Entitlements for <IDEDistributionItem: 0x7f809a2f68f0; bundleID='com.apple.dt.runtime.swiftCoreImage', path='<DVTFilePath:0x7f809a30aa80:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCoreImage.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f8099f93580; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f8098089790; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80980160b0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftCoreImage', executablePath='<DVTFilePath:0x7f809a30aa80:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCoreImage.dylib'>', hardenedRuntime='0'>'>: {
+}
+2022-03-06 07:56:14 +0000  Entitlements for <IDEDistributionItem: 0x7f809a2f68f0; bundleID='com.apple.dt.runtime.swiftCoreImage', path='<DVTFilePath:0x7f809a30aa80:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCoreImage.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f8099f93580; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f80b7f4fb80; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80b7f66140>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftCoreImage', executablePath='<DVTFilePath:0x7f809a30aa80:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCoreImage.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2022-03-06 07:56:14 +0000  Writing entitlements for <IDEDistributionItem: 0x7f809a2f68f0; bundleID='com.apple.dt.runtime.swiftCoreImage', path='<DVTFilePath:0x7f809a30aa80:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCoreImage.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f8099f93580; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f80980895a0; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f809801c0e0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftCoreImage', executablePath='<DVTFilePath:0x7f809a30aa80:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCoreImage.dylib'>', hardenedRuntime='0'>'> to: /var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/entitlements~~~jzshlo
+2022-03-06 07:56:14 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D' '--entitlements' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/entitlements~~~jzshlo' '--preserve-metadata=identifier,flags,runtime' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftCoreImage.dylib'
+2022-03-06 07:56:14 +0000  /var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftCoreImage.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreImage]
+2022-03-06 07:56:14 +0000  /usr/bin/codesign exited with 0
+2022-03-06 07:56:14 +0000  Entitlements for <IDEDistributionItem: 0x7f809a2f98b0; bundleID='com.apple.dt.runtime.swiftCoreLocation', path='<DVTFilePath:0x7f80b4747320:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCoreLocation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f809a2f3a80; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f80b35a2380; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80b258c680>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftCoreLocation', executablePath='<DVTFilePath:0x7f80b4747320:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCoreLocation.dylib'>', hardenedRuntime='0'>'>: {
+}
+2022-03-06 07:56:14 +0000  Entitlements for <IDEDistributionItem: 0x7f809a2f98b0; bundleID='com.apple.dt.runtime.swiftCoreLocation', path='<DVTFilePath:0x7f80b4747320:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCoreLocation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f809a2f3a80; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f809a021a00; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80b2533b40>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftCoreLocation', executablePath='<DVTFilePath:0x7f80b4747320:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCoreLocation.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2022-03-06 07:56:14 +0000  Writing entitlements for <IDEDistributionItem: 0x7f809a2f98b0; bundleID='com.apple.dt.runtime.swiftCoreLocation', path='<DVTFilePath:0x7f80b4747320:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCoreLocation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f809a2f3a80; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f8098015630; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80b7f4e080>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftCoreLocation', executablePath='<DVTFilePath:0x7f80b4747320:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftCoreLocation.dylib'>', hardenedRuntime='0'>'> to: /var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/entitlements~~~WHCD7p
+2022-03-06 07:56:14 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D' '--entitlements' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/entitlements~~~WHCD7p' '--preserve-metadata=identifier,flags,runtime' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftCoreLocation.dylib'
+2022-03-06 07:56:14 +0000  /var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftCoreLocation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreLocation]
+2022-03-06 07:56:14 +0000  /usr/bin/codesign exited with 0
+2022-03-06 07:56:14 +0000  Entitlements for <IDEDistributionItem: 0x7f809a2ea380; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x7f80b36a1450:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f8099f769b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f80b35a2380; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80b2568450>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x7f80b36a1450:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'>: {
+}
+2022-03-06 07:56:14 +0000  Entitlements for <IDEDistributionItem: 0x7f809a2ea380; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x7f80b36a1450:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f8099f769b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f8098014500; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80d2f3b3d0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x7f80b36a1450:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2022-03-06 07:56:14 +0000  Writing entitlements for <IDEDistributionItem: 0x7f809a2ea380; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x7f80b36a1450:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f8099f769b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f809a022690; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80b25963c0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x7f80b36a1450:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'> to: /var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/entitlements~~~58tyY2
+2022-03-06 07:56:14 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D' '--entitlements' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/entitlements~~~58tyY2' '--preserve-metadata=identifier,flags,runtime' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftDarwin.dylib'
+2022-03-06 07:56:14 +0000  /var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftDarwin.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDarwin]
+2022-03-06 07:56:14 +0000  /usr/bin/codesign exited with 0
+2022-03-06 07:56:14 +0000  Entitlements for <IDEDistributionItem: 0x7f8099f8b540; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x7f8099f40c00:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f809a1f6490; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f80b35c7370; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80b253cd70>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x7f8099f40c00:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'>: {
+}
+2022-03-06 07:56:14 +0000  Entitlements for <IDEDistributionItem: 0x7f8099f8b540; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x7f8099f40c00:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f809a1f6490; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f8098014580; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80d2f1ae10>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x7f8099f40c00:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2022-03-06 07:56:14 +0000  Writing entitlements for <IDEDistributionItem: 0x7f8099f8b540; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x7f8099f40c00:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f809a1f6490; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f809a01f990; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80b2569770>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x7f8099f40c00:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'> to: /var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/entitlements~~~CvP3lA
+2022-03-06 07:56:14 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D' '--entitlements' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/entitlements~~~CvP3lA' '--preserve-metadata=identifier,flags,runtime' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftDispatch.dylib'
+2022-03-06 07:56:14 +0000  /var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftDispatch.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDispatch]
+2022-03-06 07:56:14 +0000  /usr/bin/codesign exited with 0
+2022-03-06 07:56:14 +0000  Entitlements for <IDEDistributionItem: 0x7f809a2f3350; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x7f80ad02b9a0:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f809a2efeb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f80b0cfe6d0; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80b253cd70>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x7f80ad02b9a0:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'>: {
+}
+2022-03-06 07:56:14 +0000  Entitlements for <IDEDistributionItem: 0x7f809a2f3350; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x7f80ad02b9a0:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f809a2efeb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f8099f86610; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f8099fa6c90>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x7f80ad02b9a0:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2022-03-06 07:56:14 +0000  Writing entitlements for <IDEDistributionItem: 0x7f809a2f3350; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x7f80ad02b9a0:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f809a2efeb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f809a0232c0; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80b25ea780>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x7f80ad02b9a0:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'> to: /var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/entitlements~~~8y3wLX
+2022-03-06 07:56:14 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D' '--entitlements' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/entitlements~~~8y3wLX' '--preserve-metadata=identifier,flags,runtime' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftFoundation.dylib'
+2022-03-06 07:56:15 +0000  /var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftFoundation]
+2022-03-06 07:56:15 +0000  /usr/bin/codesign exited with 0
+2022-03-06 07:56:15 +0000  Entitlements for <IDEDistributionItem: 0x7f809a2ed310; bundleID='com.apple.dt.runtime.swiftMetal', path='<DVTFilePath:0x7f80b58c7d00:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftMetal.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f809a2ea090; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f80b7f5f910; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80b7f52aa0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftMetal', executablePath='<DVTFilePath:0x7f80b58c7d00:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftMetal.dylib'>', hardenedRuntime='0'>'>: {
+}
+2022-03-06 07:56:15 +0000  Entitlements for <IDEDistributionItem: 0x7f809a2ed310; bundleID='com.apple.dt.runtime.swiftMetal', path='<DVTFilePath:0x7f80b58c7d00:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftMetal.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f809a2ea090; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f809a02d6a0; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80b9924c70>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftMetal', executablePath='<DVTFilePath:0x7f80b58c7d00:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftMetal.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2022-03-06 07:56:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7f809a2ed310; bundleID='com.apple.dt.runtime.swiftMetal', path='<DVTFilePath:0x7f80b58c7d00:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftMetal.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f809a2ea090; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f80b1a32bc0; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80ad00c390>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftMetal', executablePath='<DVTFilePath:0x7f80b58c7d00:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftMetal.dylib'>', hardenedRuntime='0'>'> to: /var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/entitlements~~~GrU4pJ
+2022-03-06 07:56:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D' '--entitlements' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/entitlements~~~GrU4pJ' '--preserve-metadata=identifier,flags,runtime' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftMetal.dylib'
+2022-03-06 07:56:15 +0000  /var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftMetal.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftMetal]
+2022-03-06 07:56:15 +0000  /usr/bin/codesign exited with 0
+2022-03-06 07:56:15 +0000  Entitlements for <IDEDistributionItem: 0x7f809a2f3df0; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x7f809a30df20:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f809a2f3cb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f80b582c070; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f8098004a80>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x7f809a30df20:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'>: {
+}
+2022-03-06 07:56:15 +0000  Entitlements for <IDEDistributionItem: 0x7f809a2f3df0; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x7f809a30df20:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f809a2f3cb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f80b7f28a10; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80b7f67ae0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x7f809a30df20:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2022-03-06 07:56:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7f809a2f3df0; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x7f809a30df20:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f809a2f3cb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f80b7f61b10; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80b7f52790>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x7f809a30df20:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'> to: /var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/entitlements~~~1XdpET
+2022-03-06 07:56:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D' '--entitlements' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/entitlements~~~1XdpET' '--preserve-metadata=identifier,flags,runtime' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftObjectiveC.dylib'
+2022-03-06 07:56:15 +0000  /var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftObjectiveC.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftObjectiveC]
+2022-03-06 07:56:15 +0000  /usr/bin/codesign exited with 0
+2022-03-06 07:56:15 +0000  Entitlements for <IDEDistributionItem: 0x7f8099f8fcb0; bundleID='com.apple.dt.runtime.swiftQuartzCore', path='<DVTFilePath:0x7f80b5809640:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftQuartzCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f809a2f1170; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f80b3598270; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80b0c18cd0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftQuartzCore', executablePath='<DVTFilePath:0x7f80b5809640:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftQuartzCore.dylib'>', hardenedRuntime='0'>'>: {
+}
+2022-03-06 07:56:15 +0000  Entitlements for <IDEDistributionItem: 0x7f8099f8fcb0; bundleID='com.apple.dt.runtime.swiftQuartzCore', path='<DVTFilePath:0x7f80b5809640:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftQuartzCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f809a2f1170; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f809a029a10; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80b0c18c50>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftQuartzCore', executablePath='<DVTFilePath:0x7f80b5809640:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftQuartzCore.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2022-03-06 07:56:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7f8099f8fcb0; bundleID='com.apple.dt.runtime.swiftQuartzCore', path='<DVTFilePath:0x7f80b5809640:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftQuartzCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f809a2f1170; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f8098015700; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80b34af2e0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftQuartzCore', executablePath='<DVTFilePath:0x7f80b5809640:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftQuartzCore.dylib'>', hardenedRuntime='0'>'> to: /var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/entitlements~~~mX9hQV
+2022-03-06 07:56:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D' '--entitlements' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/entitlements~~~mX9hQV' '--preserve-metadata=identifier,flags,runtime' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftQuartzCore.dylib'
+2022-03-06 07:56:15 +0000  /var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftQuartzCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftQuartzCore]
+2022-03-06 07:56:15 +0000  /usr/bin/codesign exited with 0
+2022-03-06 07:56:15 +0000  Entitlements for <IDEDistributionItem: 0x7f809a00c690; bundleID='com.apple.dt.runtime.swiftUIKit', path='<DVTFilePath:0x7f80b26d95f0:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftUIKit.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f80b4731470; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f8099f81080; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80ae777140>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftUIKit', executablePath='<DVTFilePath:0x7f80b26d95f0:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftUIKit.dylib'>', hardenedRuntime='0'>'>: {
+}
+2022-03-06 07:56:15 +0000  Entitlements for <IDEDistributionItem: 0x7f809a00c690; bundleID='com.apple.dt.runtime.swiftUIKit', path='<DVTFilePath:0x7f80b26d95f0:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftUIKit.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f80b4731470; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f8099fb0ed0; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80ae7770f0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftUIKit', executablePath='<DVTFilePath:0x7f80b26d95f0:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftUIKit.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2022-03-06 07:56:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7f809a00c690; bundleID='com.apple.dt.runtime.swiftUIKit', path='<DVTFilePath:0x7f80b26d95f0:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftUIKit.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f80b4731470; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f80b0c18c20; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80b0c18cd0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftUIKit', executablePath='<DVTFilePath:0x7f80b26d95f0:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftUIKit.dylib'>', hardenedRuntime='0'>'> to: /var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/entitlements~~~fHVWaA
+2022-03-06 07:56:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D' '--entitlements' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/entitlements~~~fHVWaA' '--preserve-metadata=identifier,flags,runtime' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftUIKit.dylib'
+2022-03-06 07:56:15 +0000  /var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftUIKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftUIKit]
+2022-03-06 07:56:15 +0000  /usr/bin/codesign exited with 0
+2022-03-06 07:56:15 +0000  Entitlements for <IDEDistributionItem: 0x7f809a1f83c0; bundleID='com.apple.dt.runtime.swiftos', path='<DVTFilePath:0x7f8099f682b0:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftos.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f80a8061e30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f809a02d6a0; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80b256fef0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftos', executablePath='<DVTFilePath:0x7f8099f682b0:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftos.dylib'>', hardenedRuntime='0'>'>: {
+}
+2022-03-06 07:56:15 +0000  Entitlements for <IDEDistributionItem: 0x7f809a1f83c0; bundleID='com.apple.dt.runtime.swiftos', path='<DVTFilePath:0x7f8099f682b0:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftos.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f80a8061e30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f809a029840; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80c29e75a0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftos', executablePath='<DVTFilePath:0x7f8099f682b0:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftos.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2022-03-06 07:56:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7f809a1f83c0; bundleID='com.apple.dt.runtime.swiftos', path='<DVTFilePath:0x7f8099f682b0:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftos.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f80a8061e30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f809a031310; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80c29eed00>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='(null)', teamID='352Y6WCA3Q', identifier='com.apple.dt.runtime.swiftos', executablePath='<DVTFilePath:0x7f8099f682b0:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/Frameworks/libswiftos.dylib'>', hardenedRuntime='0'>'> to: /var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/entitlements~~~DhhQju
+2022-03-06 07:56:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D' '--entitlements' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/entitlements~~~DhhQju' '--preserve-metadata=identifier,flags,runtime' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftos.dylib'
+2022-03-06 07:56:15 +0000  /var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftos.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftos]
+2022-03-06 07:56:15 +0000  /usr/bin/codesign exited with 0
+2022-03-06 07:56:15 +0000  Entitlements for <IDEDistributionItem: 0x7f8098006e00; bundleID='merchant.com.faifaqs.experisapp', path='<DVTFilePath:0x7f80ae1c07b0:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f809a2fbb50; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f80b35562d0; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80b0c18cd0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='{
+    "application-identifier" = "352Y6WCA3Q.merchant.com.faifaqs.experisapp";
+    "com.apple.developer.team-identifier" = 352Y6WCA3Q;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "352Y6WCA3Q.merchant.com.faifaqs.experisapp"
+    );
+}', teamID='352Y6WCA3Q', identifier='merchant.com.faifaqs.experisapp', executablePath='<DVTFilePath:0x7f809a1999b0:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/coinvert'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "352Y6WCA3Q.merchant.com.faifaqs.experisapp";
+    "com.apple.developer.team-identifier" = 352Y6WCA3Q;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "352Y6WCA3Q.merchant.com.faifaqs.experisapp"
+    );
+}
+2022-03-06 07:56:15 +0000  Entitlements for <IDEDistributionItem: 0x7f8098006e00; bundleID='merchant.com.faifaqs.experisapp', path='<DVTFilePath:0x7f80ae1c07b0:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f809a2fbb50; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f80b7f60650; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80b7f59460>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='{
+    "application-identifier" = "352Y6WCA3Q.merchant.com.faifaqs.experisapp";
+    "com.apple.developer.team-identifier" = 352Y6WCA3Q;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "352Y6WCA3Q.merchant.com.faifaqs.experisapp"
+    );
+}', teamID='352Y6WCA3Q', identifier='merchant.com.faifaqs.experisapp', executablePath='<DVTFilePath:0x7f809a1999b0:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/coinvert'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "352Y6WCA3Q.merchant.com.faifaqs.experisapp";
+    "com.apple.developer.team-identifier" = 352Y6WCA3Q;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "352Y6WCA3Q.merchant.com.faifaqs.experisapp"
+    );
+}
+2022-03-06 07:56:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7f8098006e00; bundleID='merchant.com.faifaqs.experisapp', path='<DVTFilePath:0x7f80ae1c07b0:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f809a2fbb50; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f80b7f53de0; name='Apple Development: Rahul Singh (VXJAVG9GC7)', hash='62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f80b7f641f0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-01-26 13:43:21 +0000''>', entitlements='{
+    "application-identifier" = "352Y6WCA3Q.merchant.com.faifaqs.experisapp";
+    "com.apple.developer.team-identifier" = 352Y6WCA3Q;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "352Y6WCA3Q.merchant.com.faifaqs.experisapp"
+    );
+}', teamID='352Y6WCA3Q', identifier='merchant.com.faifaqs.experisapp', executablePath='<DVTFilePath:0x7f809a1999b0:'/Users/apple/Library/Developer/Xcode/Archives/2022-03-06/coinvert 06-03-22, 1.25 PM.xcarchive/Products/Applications/coinvert.app/coinvert'>', hardenedRuntime='0'>'> to: /var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/entitlements~~~rTaPqs
+2022-03-06 07:56:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '62677B8ECC5F09EFEC86AD4362F4FC70A93A1A2D' '--entitlements' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/entitlements~~~rTaPqs' '--preserve-metadata=identifier,flags,runtime' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app'
+2022-03-06 07:56:16 +0000  /var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app: signed app bundle with Mach-O universal (armv7 arm64) [merchant.com.faifaqs.experisapp]
+2022-03-06 07:56:16 +0000  /usr/bin/codesign exited with 0
+2022-03-06 07:56:16 +0000  Processing step: IDEDistributionZipODRItemStep
+2022-03-06 07:56:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2022-03-06 07:56:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2022-03-06 07:56:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2022-03-06 07:56:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2022-03-06 07:56:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2022-03-06 07:56:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2022-03-06 07:56:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2022-03-06 07:56:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2022-03-06 07:56:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2022-03-06 07:56:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2022-03-06 07:56:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2022-03-06 07:56:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2022-03-06 07:56:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2022-03-06 07:56:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2022-03-06 07:56:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2022-03-06 07:56:16 +0000  Processing step: IDEDistributionCreateIPAStep
+2022-03-06 07:56:16 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root' '/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Packages/coinvert.ipa'
+2022-03-06 07:56:16 +0000  >>> Copying /var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root 
+2022-03-06 07:56:16 +0000  copying file ./Payload/coinvert.app/_CodeSignature/CodeResources ... 
+2022-03-06 07:56:16 +0000  23092 bytes for ./Payload/coinvert.app/_CodeSignature/CodeResources
+2022-03-06 07:56:16 +0000  copying file ./Payload/coinvert.app/AppIcon20x20@2x.png ... 
+2022-03-06 07:56:16 +0000  1714 bytes for ./Payload/coinvert.app/AppIcon20x20@2x.png
+2022-03-06 07:56:16 +0000  copying file ./Payload/coinvert.app/AppIcon20x20@3x.png ... 
+2022-03-06 07:56:16 +0000  2780 bytes for ./Payload/coinvert.app/AppIcon20x20@3x.png
+2022-03-06 07:56:16 +0000  copying file ./Payload/coinvert.app/AppIcon60x60@2x.png ... 
+2022-03-06 07:56:16 +0000  7034 bytes for ./Payload/coinvert.app/AppIcon60x60@2x.png
+2022-03-06 07:56:16 +0000  copying file ./Payload/coinvert.app/AppIcon29x29@2x.png ... 
+2022-03-06 07:56:16 +0000  2658 bytes for ./Payload/coinvert.app/AppIcon29x29@2x.png
+copying file ./Payload/coinvert.app/AppIcon40x40@3x.png ... 
+2022-03-06 07:56:16 +0000  7034 bytes for ./Payload/coinvert.app/AppIcon40x40@3x.png
+2022-03-06 07:56:16 +0000  copying file ./Payload/coinvert.app/AppIcon40x40@2x.png ... 
+2022-03-06 07:56:16 +0000  3904 bytes for ./Payload/coinvert.app/AppIcon40x40@2x.png
+copying file ./Payload/coinvert.app/AppIcon29x29@3x.png ... 
+2022-03-06 07:56:16 +0000  4363 bytes for ./Payload/coinvert.app/AppIcon29x29@3x.png
+2022-03-06 07:56:16 +0000  copying file ./Payload/coinvert.app/AccessibilityResources.bundle/en.lproj/Localizable.strings ... 
+2022-03-06 07:56:16 +0000  530 bytes for ./Payload/coinvert.app/AccessibilityResources.bundle/en.lproj/Localizable.strings
+2022-03-06 07:56:16 +0000  copying file ./Payload/coinvert.app/AccessibilityResources.bundle/Info.plist ... 
+2022-03-06 07:56:16 +0000  745 bytes for ./Payload/coinvert.app/AccessibilityResources.bundle/Info.plist
+2022-03-06 07:56:16 +0000  copying file ./Payload/coinvert.app/GoogleService-Info.plist ... 
+2022-03-06 07:56:16 +0000  666 bytes for ./Payload/coinvert.app/GoogleService-Info.plist
+copying file ./Payload/coinvert.app/AppIcon60x60@3x.png ... 
+2022-03-06 07:56:16 +0000  13740 bytes for ./Payload/coinvert.app/AppIcon60x60@3x.png
+2022-03-06 07:56:16 +0000  copying file ./Payload/coinvert.app/Assets.car ... 
+2022-03-06 07:56:16 +0000  2955711 bytes for ./Payload/coinvert.app/Assets.car
+2022-03-06 07:56:16 +0000  copying file ./Payload/coinvert.app/main.jsbundle ... 
+2022-03-06 07:56:16 +0000  2066167 bytes for ./Payload/coinvert.app/main.jsbundle
+2022-03-06 07:56:16 +0000  copying file ./Payload/coinvert.app/coinvert ... 
+2022-03-06 07:56:16 +0000  8716320 bytes for ./Payload/coinvert.app/coinvert
+2022-03-06 07:56:16 +0000  copying file ./Payload/coinvert.app/LaunchScreen.storyboardc/EXPO-VIEWCONTROLLER-1-view-EXPO-IMAGEVIEW-1.nib ... 
+2022-03-06 07:56:16 +0000  1259 bytes for ./Payload/coinvert.app/LaunchScreen.storyboardc/EXPO-VIEWCONTROLLER-1-view-EXPO-IMAGEVIEW-1.nib
+copying file ./Payload/coinvert.app/LaunchScreen.storyboardc/SplashScreenViewController.nib ... 
+2022-03-06 07:56:16 +0000  974 bytes for ./Payload/coinvert.app/LaunchScreen.storyboardc/SplashScreenViewController.nib
+copying file ./Payload/coinvert.app/LaunchScreen.storyboardc/Info.plist ... 
+225 bytes for ./Payload/coinvert.app/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/coinvert.app/IQKeyboardManagerSwift.bundle/Assets.car ... 
+2022-03-06 07:56:16 +0000  62671 bytes for ./Payload/coinvert.app/IQKeyboardManagerSwift.bundle/Assets.car
+2022-03-06 07:56:16 +0000  copying file ./Payload/coinvert.app/IQKeyboardManagerSwift.bundle/Info.plist ... 
+743 bytes for ./Payload/coinvert.app/IQKeyboardManagerSwift.bundle/Info.plist
+2022-03-06 07:56:16 +0000  copying file ./Payload/coinvert.app/Frameworks/libswiftCoreImage.dylib ... 
+2022-03-06 07:56:16 +0000  253632 bytes for ./Payload/coinvert.app/Frameworks/libswiftCoreImage.dylib
+2022-03-06 07:56:16 +0000  copying file ./Payload/coinvert.app/Frameworks/libswiftObjectiveC.dylib ... 
+2022-03-06 07:56:16 +0000  302640 bytes for ./Payload/coinvert.app/Frameworks/libswiftObjectiveC.dylib
+2022-03-06 07:56:16 +0000  copying file ./Payload/coinvert.app/Frameworks/libswiftCore.dylib ... 
+2022-03-06 07:56:17 +0000  16915040 bytes for ./Payload/coinvert.app/Frameworks/libswiftCore.dylib
+2022-03-06 07:56:17 +0000  copying file ./Payload/coinvert.app/Frameworks/libswiftCoreGraphics.dylib ... 
+646848 bytes for ./Payload/coinvert.app/Frameworks/libswiftCoreGraphics.dylib
+copying file ./Payload/coinvert.app/Frameworks/OpenSSL.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Payload/coinvert.app/Frameworks/OpenSSL.framework/_CodeSignature/CodeResources
+copying file ./Payload/coinvert.app/Frameworks/OpenSSL.framework/OpenSSL ... 
+2022-03-06 07:56:18 +0000  4609040 bytes for ./Payload/coinvert.app/Frameworks/OpenSSL.framework/OpenSSL
+2022-03-06 07:56:18 +0000  copying file ./Payload/coinvert.app/Frameworks/OpenSSL.framework/Info.plist ... 
+716 bytes for ./Payload/coinvert.app/Frameworks/OpenSSL.framework/Info.plist
+2022-03-06 07:56:18 +0000  copying file ./Payload/coinvert.app/Frameworks/libswiftUIKit.dylib ... 
+2022-03-06 07:56:18 +0000  477152 bytes for ./Payload/coinvert.app/Frameworks/libswiftUIKit.dylib
+2022-03-06 07:56:18 +0000  copying file ./Payload/coinvert.app/Frameworks/libswiftMetal.dylib ... 
+2022-03-06 07:56:18 +0000  298096 bytes for ./Payload/coinvert.app/Frameworks/libswiftMetal.dylib
+2022-03-06 07:56:18 +0000  copying file ./Payload/coinvert.app/Frameworks/libswiftDispatch.dylib ... 
+2022-03-06 07:56:18 +0000  1018912 bytes for ./Payload/coinvert.app/Frameworks/libswiftDispatch.dylib
+2022-03-06 07:56:18 +0000  copying file ./Payload/coinvert.app/Frameworks/libswiftos.dylib ... 
+2022-03-06 07:56:18 +0000  299424 bytes for ./Payload/coinvert.app/Frameworks/libswiftos.dylib
+2022-03-06 07:56:18 +0000  copying file ./Payload/coinvert.app/Frameworks/libswiftCoreFoundation.dylib ... 
+2022-03-06 07:56:18 +0000  253776 bytes for ./Payload/coinvert.app/Frameworks/libswiftCoreFoundation.dylib
+2022-03-06 07:56:18 +0000  copying file ./Payload/coinvert.app/Frameworks/libswiftDarwin.dylib ... 
+2022-03-06 07:56:18 +0000  369728 bytes for ./Payload/coinvert.app/Frameworks/libswiftDarwin.dylib
+2022-03-06 07:56:18 +0000  copying file ./Payload/coinvert.app/Frameworks/libswiftQuartzCore.dylib ... 
+2022-03-06 07:56:18 +0000  256864 bytes for ./Payload/coinvert.app/Frameworks/libswiftQuartzCore.dylib
+2022-03-06 07:56:18 +0000  copying file ./Payload/coinvert.app/Frameworks/libswiftFoundation.dylib ... 
+2022-03-06 07:56:18 +0000  8479536 bytes for ./Payload/coinvert.app/Frameworks/libswiftFoundation.dylib
+2022-03-06 07:56:18 +0000  copying file ./Payload/coinvert.app/Frameworks/libswiftCoreLocation.dylib ... 
+2022-03-06 07:56:18 +0000  304112 bytes for ./Payload/coinvert.app/Frameworks/libswiftCoreLocation.dylib
+2022-03-06 07:56:18 +0000  copying file ./Payload/coinvert.app/embedded.mobileprovision ... 
+2022-03-06 07:56:18 +0000  17379 bytes for ./Payload/coinvert.app/embedded.mobileprovision
+2022-03-06 07:56:18 +0000  copying file ./Payload/coinvert.app/assets/app.json ... 
+2022-03-06 07:56:18 +0000  53 bytes for ./Payload/coinvert.app/assets/app.json
+2022-03-06 07:56:18 +0000  copying file ./Payload/coinvert.app/assets/node_modules/react-native/package.json ... 
+2022-03-06 07:56:18 +0000  6756 bytes for ./Payload/coinvert.app/assets/node_modules/react-native/package.json
+2022-03-06 07:56:18 +0000  copying file ./Payload/coinvert.app/assets/node_modules/@react-navigation/drawer/src/views/assets/toggle-drawer-icon@3x.png ... 
+2022-03-06 07:56:18 +0000  212 bytes for ./Payload/coinvert.app/assets/node_modules/@react-navigation/drawer/src/views/assets/toggle-drawer-icon@3x.png
+copying file ./Payload/coinvert.app/assets/node_modules/@react-navigation/drawer/src/views/assets/toggle-drawer-icon@2x.png ... 
+2022-03-06 07:56:18 +0000  163 bytes for ./Payload/coinvert.app/assets/node_modules/@react-navigation/drawer/src/views/assets/toggle-drawer-icon@2x.png
+2022-03-06 07:56:18 +0000  copying file ./Payload/coinvert.app/assets/node_modules/@react-navigation/drawer/src/views/assets/toggle-drawer-icon.png ... 
+2022-03-06 07:56:18 +0000  108 bytes for ./Payload/coinvert.app/assets/node_modules/@react-navigation/drawer/src/views/assets/toggle-drawer-icon.png
+2022-03-06 07:56:18 +0000  copying file ./Payload/coinvert.app/assets/node_modules/@react-navigation/stack/src/views/assets/back-icon@3x.png ... 
+2022-03-06 07:56:18 +0000  761 bytes for ./Payload/coinvert.app/assets/node_modules/@react-navigation/stack/src/views/assets/back-icon@3x.png
+copying file ./Payload/coinvert.app/assets/node_modules/@react-navigation/stack/src/views/assets/back-icon@2x.png ... 
+2022-03-06 07:56:18 +0000  405 bytes for ./Payload/coinvert.app/assets/node_modules/@react-navigation/stack/src/views/assets/back-icon@2x.png
+copying file ./Payload/coinvert.app/assets/node_modules/@react-navigation/stack/src/views/assets/back-icon.png ... 
+2022-03-06 07:56:18 +0000  290 bytes for ./Payload/coinvert.app/assets/node_modules/@react-navigation/stack/src/views/assets/back-icon.png
+copying file ./Payload/coinvert.app/assets/node_modules/@react-navigation/stack/src/views/assets/back-icon-mask.png ... 
+913 bytes for ./Payload/coinvert.app/assets/node_modules/@react-navigation/stack/src/views/assets/back-icon-mask.png
+2022-03-06 07:56:18 +0000  copying file ./Payload/coinvert.app/assets/node_modules/react-native-calendars/src/calendar/img/previous@2x.png ... 
+2022-03-06 07:56:18 +0000  458 bytes for ./Payload/coinvert.app/assets/node_modules/react-native-calendars/src/calendar/img/previous@2x.png
+copying file ./Payload/coinvert.app/assets/node_modules/react-native-calendars/src/calendar/img/next@2x.png ... 
+2022-03-06 07:56:18 +0000  462 bytes for ./Payload/coinvert.app/assets/node_modules/react-native-calendars/src/calendar/img/next@2x.png
+2022-03-06 07:56:18 +0000  copying file ./Payload/coinvert.app/assets/node_modules/react-native-calendars/src/img/down@3x.png ... 
+2022-03-06 07:56:18 +0000  508 bytes for ./Payload/coinvert.app/assets/node_modules/react-native-calendars/src/img/down@3x.png
+2022-03-06 07:56:18 +0000  copying file ./Payload/coinvert.app/assets/node_modules/react-native-calendars/src/img/down@2x.png ... 
+2022-03-06 07:56:18 +0000  354 bytes for ./Payload/coinvert.app/assets/node_modules/react-native-calendars/src/img/down@2x.png
+copying file ./Payload/coinvert.app/assets/node_modules/react-native-calendars/src/img/up.png ... 
+2022-03-06 07:56:18 +0000  215 bytes for ./Payload/coinvert.app/assets/node_modules/react-native-calendars/src/img/up.png
+copying file ./Payload/coinvert.app/assets/node_modules/react-native-calendars/src/img/down.png ... 
+2022-03-06 07:56:18 +0000  208 bytes for ./Payload/coinvert.app/assets/node_modules/react-native-calendars/src/img/down.png
+copying file ./Payload/coinvert.app/assets/node_modules/react-native-calendars/src/img/up@2x.png ... 
+2022-03-06 07:56:18 +0000  347 bytes for ./Payload/coinvert.app/assets/node_modules/react-native-calendars/src/img/up@2x.png
+copying file ./Payload/coinvert.app/assets/node_modules/react-native-calendars/src/img/up@3x.png ... 
+2022-03-06 07:56:18 +0000  504 bytes for ./Payload/coinvert.app/assets/node_modules/react-native-calendars/src/img/up@3x.png
+2022-03-06 07:56:18 +0000  copying file ./Payload/coinvert.app/assets/Src/Assets/profilePic.png ... 
+2022-03-06 07:56:18 +0000  10654 bytes for ./Payload/coinvert.app/assets/Src/Assets/profilePic.png
+2022-03-06 07:56:18 +0000  copying file ./Payload/coinvert.app/assets/Src/Assets/logo.png ... 
+2022-03-06 07:56:18 +0000  47783 bytes for ./Payload/coinvert.app/assets/Src/Assets/logo.png
+2022-03-06 07:56:18 +0000  copying file ./Payload/coinvert.app/assets/Src/Assets/Group162.png ... 
+2022-03-06 07:56:18 +0000  135023 bytes for ./Payload/coinvert.app/assets/Src/Assets/Group162.png
+2022-03-06 07:56:18 +0000  copying file ./Payload/coinvert.app/assets/Src/Assets/Group163.png ... 
+2835 bytes for ./Payload/coinvert.app/assets/Src/Assets/Group163.png
+copying file ./Payload/coinvert.app/assets/Src/Assets/keylock.png ... 
+2022-03-06 07:56:18 +0000  66421 bytes for ./Payload/coinvert.app/assets/Src/Assets/keylock.png
+2022-03-06 07:56:18 +0000  copying file ./Payload/coinvert.app/assets/Src/Assets/Group164.png ... 
+2022-03-06 07:56:18 +0000  911 bytes for ./Payload/coinvert.app/assets/Src/Assets/Group164.png
+2022-03-06 07:56:18 +0000  copying file ./Payload/coinvert.app/assets/Src/Assets/notification.png ... 
+2022-03-06 07:56:18 +0000  994 bytes for ./Payload/coinvert.app/assets/Src/Assets/notification.png
+2022-03-06 07:56:18 +0000  copying file ./Payload/coinvert.app/assets/Src/Assets/Group165.png ... 
+8154 bytes for ./Payload/coinvert.app/assets/Src/Assets/Group165.png
+copying file ./Payload/coinvert.app/assets/Src/Assets/back.png ... 
+522 bytes for ./Payload/coinvert.app/assets/Src/Assets/back.png
+copying file ./Payload/coinvert.app/assets/Src/Assets/calander.png ... 
+1341 bytes for ./Payload/coinvert.app/assets/Src/Assets/calander.png
+copying file ./Payload/coinvert.app/Info.plist ... 
+3054 bytes for ./Payload/coinvert.app/Info.plist
+copying file ./Payload/coinvert.app/PkgInfo ... 
+8 bytes for ./Payload/coinvert.app/PkgInfo
+copying file ./AppThinning.plist ... 
+228 bytes for ./AppThinning.plist
+2022-03-06 07:56:18 +0000  /usr/bin/ditto exited with 0
+2022-03-06 07:56:18 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2022-03-06 07:56:18 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2022-03-06 07:56:18 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2022-03-06 07:56:18 +0000  IDEDistributionItem init <DVTFilePath:0x7f80b7f3d470:'/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftCoreFoundation.dylib'>
+2022-03-06 07:56:18 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7f80b7f3d470:'/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftCoreFoundation.dylib'>
+2022-03-06 07:56:18 +0000  IDEDistributionItem init <DVTFilePath:0x7f80b7f53330:'/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftUIKit.dylib'>
+2022-03-06 07:56:18 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7f80b7f53330:'/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftUIKit.dylib'>
+2022-03-06 07:56:18 +0000  IDEDistributionItem init <DVTFilePath:0x7f80b36ab210:'/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftos.dylib'>
+2022-03-06 07:56:18 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7f80b36ab210:'/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftos.dylib'>
+2022-03-06 07:56:18 +0000  IDEDistributionItem init <DVTFilePath:0x7f80b7f34aa0:'/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftDarwin.dylib'>
+2022-03-06 07:56:18 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7f80b7f34aa0:'/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftDarwin.dylib'>
+2022-03-06 07:56:18 +0000  IDEDistributionItem init <DVTFilePath:0x7f8099fb4510:'/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/OpenSSL.framework'>
+2022-03-06 07:56:18 +0000  IDEDistributionItem init <DVTFilePath:0x7f80b7f50af0:'/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftMetal.dylib'>
+2022-03-06 07:56:18 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7f80b7f50af0:'/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftMetal.dylib'>
+2022-03-06 07:56:18 +0000  IDEDistributionItem init <DVTFilePath:0x7f80b7f42b40:'/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftCoreImage.dylib'>
+2022-03-06 07:56:18 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7f80b7f42b40:'/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftCoreImage.dylib'>
+2022-03-06 07:56:18 +0000  IDEDistributionItem init <DVTFilePath:0x7f8099fb6c40:'/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftQuartzCore.dylib'>
+2022-03-06 07:56:18 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7f8099fb6c40:'/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftQuartzCore.dylib'>
+2022-03-06 07:56:18 +0000  IDEDistributionItem init <DVTFilePath:0x7f80ae777090:'/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftCoreGraphics.dylib'>
+2022-03-06 07:56:18 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7f80ae777090:'/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftCoreGraphics.dylib'>
+2022-03-06 07:56:18 +0000  IDEDistributionItem init <DVTFilePath:0x7f80b7f42990:'/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftObjectiveC.dylib'>
+2022-03-06 07:56:18 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7f80b7f42990:'/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftObjectiveC.dylib'>
+2022-03-06 07:56:18 +0000  IDEDistributionItem init <DVTFilePath:0x7f80b7f570b0:'/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftCore.dylib'>
+2022-03-06 07:56:18 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7f80b7f570b0:'/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftCore.dylib'>
+2022-03-06 07:56:18 +0000  IDEDistributionItem init <DVTFilePath:0x7f809a035e70:'/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftDispatch.dylib'>
+2022-03-06 07:56:18 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7f809a035e70:'/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftDispatch.dylib'>
+2022-03-06 07:56:18 +0000  IDEDistributionItem init <DVTFilePath:0x7f8099fb6cc0:'/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftFoundation.dylib'>
+2022-03-06 07:56:18 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7f8099fb6cc0:'/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftFoundation.dylib'>
+2022-03-06 07:56:18 +0000  IDEDistributionItem init <DVTFilePath:0x7f80abf4e070:'/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftCoreLocation.dylib'>
+2022-03-06 07:56:18 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7f80abf4e070:'/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app/Frameworks/libswiftCoreLocation.dylib'>
+2022-03-06 07:56:18 +0000  IDEDistributionItem init <DVTFilePath:0x7f80b5850e20:'/var/folders/1n/9c61w3qj7rz0lnfn3t9kxcmh0000gn/T/XcodeDistPipeline.~~~XRBHa4/Root/Payload/coinvert.app'>
+2022-03-06 07:56:18 +0000  Processing step: IDEDistributionCreateManifestStep
