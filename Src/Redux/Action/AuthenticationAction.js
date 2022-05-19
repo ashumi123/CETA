@@ -100,12 +100,14 @@ function changeAction(oldPassword,newPassword,navigation) {
     return action;
 }
 //forgot password
-function getLocation(lattiude,longitude,navigation) {
+function getLocation(lattiude,longitude,navigation,today_attendance_marked ) {
     const action = {
         type: "API_LOCATION_LOAD",
         lattiude:lattiude,
         longitude: longitude,
-        navigation:navigation
+        navigation:navigation,
+        today_attendance_marked:today_attendance_marked
+
     }
     return action;
 }

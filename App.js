@@ -53,7 +53,7 @@ const App = () => {
         apiKey: 'AIzaSyCIL1Fl7JrDdUXJxZPUbxMvcE9Q0_QuRlc',
         projectId: 'ceta-6a28b',
         messagingSenderId: '611969168057',
-        appId: '1:611969168057:android:188626e4c91d7d9b7e2168',
+        appId: '1:611969168057:android:6b3b24876d40a3f67e2168',
      }).then(()=>{
        console.log('initilized success');
        

@@ -248,16 +248,16 @@ const Home = (props) => {
             <View style={{ marginTop: "2%", width: '100%', alignItems: 'center' }}>
               <Button
                 onPress={async () => {
-                  if (homeState?.stipendData?.today_attendance_marked !== 'no') {
-                    if (homeState?.stipendData?.today_checkout_marked == 'no') {
-                      dispatch(checkedOutAction(props.navigation))
-                    }
-                    else {
-                      dispatch(checkedOutAction(props.navigation))
+                  // if (homeState?.stipendData?.today_attendance_marked !== 'no') {
+                  //   if (homeState?.stipendData?.today_checkout_marked == 'no') {
+                  //     dispatch(checkedOutAction(props.navigation))
+                  //   }
+                  //   else {
+                  //     dispatch(checkedOutAction(props.navigation))
 
-                    }
-                  }
-                  else {
+                  //   }
+                  // }
+                  // else {
                     if (Platform.OS == 'android') {
                       try {
                         const granted = await PermissionsAndroid.request(
@@ -272,7 +272,7 @@ const Home = (props) => {
                           Geolocation.getCurrentPosition(
                             (position) => {
                               console.log(position);
-                              dispatch(getLocation(position.coords.latitude, position.coords.longitude, props.navigation))
+                              dispatch(getLocation(position.coords.latitude, position.coords.longitude, props.navigation,homeState?.stipendData?.today_attendance_marked ))
                               // props.navigation.navigate('PopUp',{position:position.coords})
                             },
                             (error) => {
@@ -299,7 +299,7 @@ const Home = (props) => {
                         Geolocation.getCurrentPosition(
                           (position) => {
                             console.log(position);
-                            dispatch(getLocation(position.coords.latitude, position.coords.longitude, props.navigation))
+                            dispatch(getLocation(position.coords.latitude, position.coords.longitude, props.navigation,props.navigation,homeState?.stipendData?.today_attendance_marked ))
                             // props.navigation.navigate('PopUp',{position:position.coords})
                           },
                           (error) => {
@@ -320,7 +320,7 @@ const Home = (props) => {
 
 
                     }
-                  }
+                  // }
                   // props.navigation.navigate('PopUp')
                 }}
                 text={

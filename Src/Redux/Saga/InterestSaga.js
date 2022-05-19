@@ -216,6 +216,8 @@ export function* checkedOutSaga(action) {
         if (response.status == 1) {
             console.log('ddddddd');
             yield put({ type: "API_CHECKEDOUT_SUCCESS", result: response.result });
+
+            action.navigation.pop(2)
           
         }
         else {
@@ -244,7 +246,7 @@ export function* hashTagSaga(action) {
         console.log("get location saga", response)
         if (response.status === 1) {
             yield put({ type: "API_LOCATION_SUCCESS", result: response.result });
-            action.navigation.navigate('PopUp2',{location_id:response.result.data.location_id})
+            action.navigation.navigate('PopUp2',{location_id:response.result.data.location_id,today_attendance_marked:action.today_attendance_marked})
 
         }
         else {

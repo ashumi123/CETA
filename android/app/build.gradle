@@ -130,11 +130,12 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.coinvert"
+        // applicationId "com.coinvert"
+        applicationId "com.cetabiometric"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 1
-        versionName "1.0"
+        versionCode 3
+        versionName "1.2"
         missingDimensionStrategy 'react-native-camera', 'mlkit'
     }
     splits {

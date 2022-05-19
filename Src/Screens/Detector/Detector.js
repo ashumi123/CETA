@@ -22,7 +22,7 @@ import Button from '../../Component/Button';
 import moment from 'moment';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import { markAttandance } from '../../Redux/Action/ProfileAction';
+import { checkedOutAction, markAttandance } from '../../Redux/Action/ProfileAction';
 import { SkypeIndicator } from 'react-native-indicators'
 const key = '0c717805738e46699413c0aac970d30e'
 // const key='120de0f00bd649269c4c790ff60af5aa'
@@ -333,7 +333,15 @@ function mapStateToProps(state) {
 function mapDispatchToProps(dispatch) {
 	return {
 		onSubmit: (id, navigation) => {
-			dispatch(markAttandance(id, navigation))
+
+			if(this.props.route?.params?.today_attendance_marked!=='no'){
+                      dispatch(checkedOutAction(this.props.navigation))
+
+			}
+			else{
+				dispatch(markAttandance(id, navigation))
+			}
+
 		}
 	}
 }
