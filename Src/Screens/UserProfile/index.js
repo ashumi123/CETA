@@ -183,7 +183,7 @@ const UserProfile = (props) => {
             {newAddedTexts('Per Day Stipend',homeState?.profileData?.per_day_stipend)}
             {newAddedTexts('Student Id',homeState?.profileData?.student_id)}
             {newAddedTexts('Qualification',homeState?.profileData?.qualification)}
-            {newAddedTexts('Intervention',homeState?.profileData?.intervention)}
+            {newAddedTexts('Learning Pathway',homeState?.profileData?.intervention)}
             {newAddedTexts('National Id',homeState?.profileData?.national_id)}
             
             

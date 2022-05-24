@@ -194,7 +194,7 @@ class Detector2 extends Component {
 								console.log('with json22', json);
 								if (json.confidence > 0.5 && json.isIdentical == true) {
 									this.setState({ loading: false })
-									this.props.onSubmit(this.state.location_id, this.props.navigation)
+									this.props.onSubmit(this.state.location_id, this.props.navigation,this.props)
 									return true
 								} else {
 									this.setState({ loading: false })
@@ -332,10 +332,10 @@ function mapStateToProps(state) {
 }
 function mapDispatchToProps(dispatch) {
 	return {
-		onSubmit: (id, navigation) => {
+		onSubmit: (id, navigation,props) => {
 
-			if(this.props.route?.params?.today_attendance_marked!=='no'){
-                      dispatch(checkedOutAction(this.props.navigation))
+			if(props.route?.params?.today_attendance_marked!=='no'){
+                      dispatch(checkedOutAction(props.navigation))
 
 			}
 			else{

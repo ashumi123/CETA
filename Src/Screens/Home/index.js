@@ -90,9 +90,13 @@ const Home = (props) => {
   React.useEffect(() => {
     const unsubscribe = props.navigation.addListener('focus', () => {
       dispatch(getProfileAction(props.navigation))
-
+console.log('homeStatehomeStatehomeState',homeState);
       dispatch(getEntriesAction(props.navigation))
       // dispatch(monthStipend(props.navigation))
+      if (homeState.terms == 1) {
+        dispatch(monthStipend(props.navigation))
+      }
+  
     });
 
     // Return the function to unsubscribe from the event so it gets removed on unmount
@@ -106,6 +110,13 @@ const Home = (props) => {
     }
 
   }, [homeState.terms])
+  React.useEffect(() => {
+    if (homeState.attandanceMard == true) {
+      homeState.attandanceMard=false
+      dispatch(monthStipend(props.navigation))
+    }
+
+  }, [homeState.attandanceMard])
   React.useEffect(() => {
     console.log('homeState.sccess', homeState.sccess);
     if (homeState.sccess == 1) {

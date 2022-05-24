@@ -4,9 +4,9 @@ import DataManager from '../../Support/DataManager'
 // Create axios client, pre-configured with baseURL
 let acessToken=''
 let APIKit = axios.create({
-    baseURL: 'https://lb.chubbyminds.com/apis/',
+    // baseURL: 'https://lb.chubbyminds.com/apis/',
     // baseURL: 'https://ceta.co.za/apis/',
-    // baseURL: 'https://biometrics.ceta.org.za/apis/',
+    baseURL: 'https://biometrics.ceta.org.za/apis/',
     timeout: 10000,
 });
 

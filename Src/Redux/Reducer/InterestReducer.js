@@ -12,6 +12,7 @@ const initialState = {
     stipendData: null,
     face_id: '',
     profileData: null,
+    attandanceMard:false,
     terms:0,
     sccess:0
 };
@@ -29,7 +30,9 @@ function interestReducer(state = initialState, action) {
             return { ...state, onLoad: false, };
         case "API_GET_ENTRIES_LIST_ERROR":
             return { ...state, onLoad: false };
-
+        case "API_ATTANDANCE_SUCCESS":
+            console.log('API_ATTANDANCE_SUCCESS');
+        return {...state,onLoad:false,attandanceMard:true,terms:1}
 
 
         case "API_GET_CALANDER_LOAD":
