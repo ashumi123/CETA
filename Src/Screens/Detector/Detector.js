@@ -79,7 +79,7 @@ class Detector2 extends Component {
 	render() {
 		return (
 			<View style={{ height: Dimensions.get('screen').height, width: Dimensions.get('screen').width }}>
-				{this.state.loading ?
+				{this.state.loading||this.props?.interestReducer?.onLoad ?
 					<View style={{
 						height: Dimensions.get('screen').height, width: Dimensions.get('screen').width, backgroundColor: 'rgba(52, 52, 52, 0.4)'
 						, position: 'absolute', zIndex: 5
@@ -327,13 +327,13 @@ class Detector2 extends Component {
 
 }
 
-function mapStateToProps(state) {
-		
-}
+const mapStateToProps=(state)=>( {
+	interestReducer:state.interestReducer	
+})
 function mapDispatchToProps(dispatch) {
 	return {
 		onSubmit: (id, navigation,props) => {
-
+				console.log('propspropspropsprops',props);
 			if(props.route?.params?.today_attendance_marked!=='no'){
                       dispatch(checkedOutAction(props.navigation))
 

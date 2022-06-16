@@ -310,7 +310,8 @@ console.log('homeStatehomeStatehomeState',homeState);
                         Geolocation.getCurrentPosition(
                           (position) => {
                             console.log(position);
-                            dispatch(getLocation(position.coords.latitude, position.coords.longitude, props.navigation,props.navigation,homeState?.stipendData?.today_attendance_marked ))
+                            
+                            dispatch(getLocation(position.coords.latitude, position.coords.longitude, props.navigation,homeState?.stipendData?.today_attendance_marked ))
                             // props.navigation.navigate('PopUp',{position:position.coords})
                           },
                           (error) => {

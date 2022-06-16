@@ -12,9 +12,9 @@ const initialState = {
     stipendData: null,
     face_id: '',
     profileData: null,
-    attandanceMard:false,
-    terms:0,
-    sccess:0
+    attandanceMard: false,
+    terms: 0,
+    sccess: 0
 };
 
 function interestReducer(state = initialState, action) {
@@ -30,9 +30,19 @@ function interestReducer(state = initialState, action) {
             return { ...state, onLoad: false, };
         case "API_GET_ENTRIES_LIST_ERROR":
             return { ...state, onLoad: false };
+        case "API_ATTANDANCE_LOAD":
+            // console.log('API_ATTANDANCE_SUCCESS');
+            return { ...state, onLoad: true }
         case "API_ATTANDANCE_SUCCESS":
             console.log('API_ATTANDANCE_SUCCESS');
-        return {...state,onLoad:false,attandanceMard:true,terms:1}
+            return { ...state, onLoad: false, attandanceMard: true, terms: 1 }
+
+        case "API_ATTANDANCE_FAIL":
+            // console.log('API_ATTANDANCE_SUCCESS');
+            return { ...state, onLoad: false }
+            case "API_ATTANDANCE_ERROR":
+            // console.log('API_ATTANDANCE_SUCCESS');
+            return { ...state, onLoad: false }
 
 
         case "API_GET_CALANDER_LOAD":
@@ -52,10 +62,10 @@ function interestReducer(state = initialState, action) {
             return { ...state, onLoad: true };
 
         case "API_CHECKEDOUT_SUCCESS":
-            let stiphenData= {...state.stipendData}
-            stiphenData.today_checkout_marked='Yes'
+            let stiphenData = { ...state.stipendData }
+            stiphenData.today_checkout_marked = 'Yes'
 
-            return { ...state, onLoad: false,stipendData:stiphenData };
+            return { ...state, onLoad: false, stipendData: stiphenData };
 
         case "API_CHECKEDOUT_FAIL":
             return { ...state, onLoad: false, };
@@ -119,7 +129,7 @@ function interestReducer(state = initialState, action) {
 
         case "API_GET_STIPEND_SUCCESS":
             console.log('action.result', action.result);
-            return { ...state, onLoad: false,sccess:1, stipendData: action.result.data,terms:1 };
+            return { ...state, onLoad: false, sccess: 1, stipendData: action.result.data, terms: 1 };
 
         case "API_GET_STIPEND_FAIL":
             return { ...state, onLoad: false, };
@@ -186,7 +196,7 @@ function interestReducer(state = initialState, action) {
         case "API_GET_USER_DETAIL_LOAD":
             return { ...state, onLoad: true };
         case "API_GET_USER_DETAIL_SUCCESS":
-            return { ...state, onLoad: false,sccess:1, profileData: action.result.data,terms:action.result.data.terms_accepted };
+            return { ...state, onLoad: false, sccess: 1, profileData: action.result.data, terms: action.result.data.terms_accepted };
         case "API_GET_USER_DETAIL_FAIL":
             return { ...state, onLoad: false };
         case "API_GET_USER_DETAIL_ERROR":
